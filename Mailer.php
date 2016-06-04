@@ -4,7 +4,7 @@
  * @link http://bryantan.info
  */
 
-namespace bryglen\sendgrid;
+namespace bdart\sendgrid;
 
 use yii\base\Exception;
 use yii\base\InvalidConfigException;
@@ -51,7 +51,7 @@ class Mailer extends BaseMailer
     /**
      * @var string message default class name.
      */
-    public $messageClass = 'bryglen\sendgrid\Message';
+    public $messageClass = 'bdart\sendgrid\Message';
     /**
      * @var string the username for the sendgrid api
      */
