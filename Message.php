@@ -208,6 +208,11 @@ class Message extends BaseMessage
     {
         // no available method for sendgrid
     }
+    
+    public function getHtmlBody()
+    {
+        return $this->getSendGridMessage()->toWebFormat();
+    }
 
     /**
      * @inheritdoc
