@@ -6,7 +6,7 @@
  * @time 6:48 PM
  */
 
-namespace bryglen\sendgrid;
+namespace bdart\sendgrid;
 
 use yii\mail\BaseMessage;
 
